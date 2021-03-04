@@ -81,14 +81,14 @@
       <b-row class="video-row">
         <b-col class="col1" lg="6">
           <div class="video">
-            <h3>Buyer Process</h3>
+            <h3 class="video-title">Buyer Process</h3>
             <b-embed type="iframe" aspect="16by9" src="https://www.youtube.com/embed/uT0VzQBPe10" allowfullscreen>
             </b-embed>
           </div>
         </b-col>
         <b-col class="col1" lg="6">
           <div class="video">
-            <h3>Sellers Process</h3>
+            <h3 class="video-title">Sellers Process</h3>
             <b-embed type="iframe" aspect="16by9" src="https://www.youtube.com/embed/uT0VzQBPe10" allowfullscreen>
             </b-embed>
           </div>
@@ -110,6 +110,8 @@
   .main-container {
     padding: 0 10%;
   }
+
+
 
 
   .carousel-div.comp {
@@ -173,6 +175,11 @@
       margin: 1em -15px;
     }
 
+  .video-title{
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 1em;
+  }
 
 
   }
