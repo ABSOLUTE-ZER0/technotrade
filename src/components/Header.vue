@@ -1,7 +1,6 @@
 <template>
   <div class="header-div">
     <HeaderTop />
-    <span class="br"></span>
     <HeaderBottom />
   </div>
 

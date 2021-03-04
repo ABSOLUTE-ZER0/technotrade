@@ -1,6 +1,6 @@
 <template>
   <div class="step-div">
-          <h2>Technotrade procurement solution</h2>
+          <h2 class="title">Technotrade procurement solution</h2>
 
     <div class="step">
       <div class="step-top g1">
@@ -91,6 +91,11 @@
 
 
 <style scoped>
+
+.title{
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
 .step-div h2{
   text-align: left;
@@ -286,6 +291,28 @@
     background-image: var(--g4-gredient);
 }
 
+
+  @media (max-width: 768px) {
+  .step {
+    width: 50%;
+    min-width: 10em;
+}
+
+  .step-div {
+    padding: 0 1.3em;
+}
+
+  .step-main::before {
+    display: none;
+
+}
+
+.step-main::after {
+    display: none;
+}
+
+
+  }
 
 
 

@@ -1,46 +1,68 @@
 <template>
   <div class="header-top">
-      <b-navbar toggleable="lg">
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <div class="header">
+      <b-navbar>
+        <b-navbar-nav class="d-none d-lg-flex">
+          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@technotrade.com
+          </b-nav-item>
+          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/call.png"> +91 99999 99999
+          </b-nav-item>
+        </b-navbar-nav>
 
-        <b-collapse style="text-align: center;width:100%" id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@technotrade.com
-            </b-nav-item>
-            <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/call.png"> +91 99999 99999
-            </b-nav-item>
-          </b-navbar-nav>
+        <!-- Right aligned nav items -->
+        <b-navbar-nav style="text-align: center" class="d-none d-lg-flex right">
+          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/mobile.png"> Download App
+          </b-nav-item>
+          <b-nav-item class="nav-item" href="#"> Sell on Technotrade</b-nav-item>
+          <b-nav-item class="nav-item" href="#"> Careers</b-nav-item>
+          <b-nav-item-dropdown class="nav-item" text="Lang" right>
+            <b-dropdown-item href="#">EN</b-dropdown-item>
+            <b-dropdown-item href="#">AR</b-dropdown-item>
+            <b-dropdown-item href="#">FR</b-dropdown-item>
+          </b-nav-item-dropdown>
 
-          <!-- Right aligned nav items -->
-          <b-navbar-nav style="text-align: center" class="ml-auto">
-            <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/mobile.png"> Download App
-            </b-nav-item>
-            <b-nav-item class="nav-item" href="#"> Sell on Technotrade</b-nav-item>
-            <b-nav-item class="nav-item" href="#"> Careers</b-nav-item>
-            <b-nav-item-dropdown class="nav-item" text="Lang" right>
-              <b-dropdown-item href="#">EN</b-dropdown-item>
-              <b-dropdown-item href="#">AR</b-dropdown-item>
-              <b-dropdown-item href="#">FR</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-button class="signin-btn" variant="outline-warning">Sign In</b-button>
+        </b-navbar-nav>
 
-          </b-navbar-nav>
-        </b-collapse>
+        <b-navbar-nav class="d-lg-none">
+          <p>Choose language: </p>
+          <b-nav-item class="nav-item" href="#"> EN</b-nav-item> |
+          <b-nav-item class="nav-item" href="#"> AR</b-nav-item> |
+          <b-nav-item class="nav-item" href="#"> FR</b-nav-item> |
+        </b-navbar-nav>
       </b-navbar>
     </div>
+    <div class="button">
+      <b-button class="signin-btn" variant="outline-warning">Sign In</b-button>
+    </div>
+
+
+  </div>
 </template>
 
 <style scoped>
   .nav-item {
     margin: 0 1em;
+  }
 
+  .header {
+    width: 95%;
+    display: inline-block;
+  }
+
+  .button {
+    display: inline-block;
+    width: 5%;
   }
 
   .header-top {
     background-color: white;
     font-size: 0.9em;
-      padding: 0 10%;
+    margin: 0 10%;
+    width: 100%;
+  }
 
+  .right {
+    margin-left: auto;
   }
 
   .navtop-img {
@@ -52,5 +74,29 @@
     font-weight: bold;
     color: orangered;
     font-size: 1em;
+  }
+
+  @media (max-width: 1000px) and (min-width: 768px) {}
+
+  @media (max-width: 768px) {
+    .nav-item {
+      margin: -0.5em 0;
+    }
+  .header {
+    width: 75%;
+    float: left;
+  }
+
+    .header-top {
+    margin: 0;
+    width: 100%;
+  }
+  .button {
+    width: 25%;
+  }
+
+
+
+
   }
 </style>
