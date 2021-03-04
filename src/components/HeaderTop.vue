@@ -58,7 +58,6 @@
     background-color: white;
     font-size: 0.9em;
     margin: 0 10%;
-    width: 100%;
   }
 
   .right {
