@@ -178,7 +178,7 @@
   .video-title{
     font-size: 1.1em;
     text-align: left;
-    margin-top: 1em;
+    margin-top: 1.1em;
   }
 
 
