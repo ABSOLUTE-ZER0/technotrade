@@ -34,7 +34,7 @@
       <b-button-group>
       <b-dropdown variant="outline-warning" class="signin-btn" right text="Sign In">
       <b-dropdown-item href="/login">Login</b-dropdown-item>
-      <b-dropdown-item href="/register/buyer">Register</b-dropdown-item>
+      <b-dropdown-item href="/register">Register</b-dropdown-item>
     </b-dropdown>
       </b-button-group>
     </div>

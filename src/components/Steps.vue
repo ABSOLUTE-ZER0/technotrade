@@ -295,7 +295,7 @@
   @media (max-width: 768px) {
   .step {
     width: 50%;
-    min-width: 10em;
+    min-width: 9em;
 }
 
   .step-div {

@@ -4,11 +4,12 @@
 		<b-row>
 			<b-navbar class="nav-bar">
 				<b-navbar-brand href="/">TechnoTrade</b-navbar-brand>
-				<b-navbar-nav class="nav-items">
-					<b-nav-item href="/register">Register</b-nav-item>
-					<b-nav-item href="/about">About Us</b-nav-item>
-					<b-nav-item href="/contact">Contact</b-nav-item>
-				</b-navbar-nav>
+          <b-navbar-nav style="margin-left: auto" class="nav-items">
+            <b-nav-item href="/login">Login</b-nav-item>
+            <b-nav-item href="/register">Register</b-nav-item>
+            <b-nav-item href="/about">About Us</b-nav-item>
+            <b-nav-item href="/contact">Contact</b-nav-item>
+          </b-navbar-nav>
 			</b-navbar>
 		</b-row>
 
@@ -40,12 +41,7 @@
 						<a href="#" class="help">NEED HELP?</a>
 					</div>
 				</form>
-
 			</b-col>
-
-
-
-
 		</b-row>
 	</b-container>
 </template>
@@ -55,7 +51,7 @@
 		margin-left: auto;
 	}
 
-	.title{
+	.title {
 		font-family: fantasy;
 		letter-spacing: 3px;
 		margin-top: 40%;
@@ -88,7 +84,6 @@
 
 	.main-form {
 		margin-top: 20%;
-
 	}
 
 	.input {
@@ -104,7 +99,6 @@
 
 	.input-div {
 		flex: 4 50%;
-
 	}
 
 	.btn {
@@ -143,19 +137,24 @@
 	}
 
 
-  @media (max-width: 768px){
-		.main{
-					background-size: unset;
-					font-size: 0.8em;
-
+	@media (max-width: 768px) {
+		.main {
+			background-size: unset;
+			font-size: 0.8em;
 		}
 
-		
-	.title{
-		margin-top: 25%;
+		.title {
+			margin-top: 25%;
+		}
 	}
+</style>
 
-	}
+<style>
+.loggedin label{
+	line-height: 24px;
+}
 
-
+.loggedin input:focus{
+	display: none;
+}
 </style>
