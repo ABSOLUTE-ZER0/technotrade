@@ -109,6 +109,8 @@
 <style scoped>
   .main-container {
     padding: 0 10%;
+      background-color: rgb(240, 240, 240);
+
   }
 
 

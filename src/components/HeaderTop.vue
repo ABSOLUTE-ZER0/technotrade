@@ -9,7 +9,6 @@
           </b-nav-item>
         </b-navbar-nav>
 
-        <!-- Right aligned nav items -->
         <b-navbar-nav style="text-align: center" class="d-none d-lg-flex right">
           <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/mobile.png"> Download App
           </b-nav-item>
@@ -32,7 +31,12 @@
       </b-navbar>
     </div>
     <div class="button">
-      <b-button class="signin-btn" variant="outline-warning">Sign In</b-button>
+      <b-button-group>
+      <b-dropdown variant="outline-warning" class="signin-btn" right text="Sign In">
+      <b-dropdown-item href="/login">Login</b-dropdown-item>
+      <b-dropdown-item href="/register/buyer">Register</b-dropdown-item>
+    </b-dropdown>
+      </b-button-group>
     </div>
 
 
