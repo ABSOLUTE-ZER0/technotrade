@@ -28,25 +28,25 @@
             </div>
           </div>
           <div class="form">
-            <span class="fa fa-user" aria-hidden="true"></span>
+            <span class="fa fa-mobile" aria-hidden="true"></span>
             <div class="input-div">
               <input class="input" name="text1" id="text1" type="text" value="" placeholder="Mobile No" required="">
             </div>
           </div>
           <div class="form">
-            <span class="fa fa-user" aria-hidden="true"></span>
+            <span class="fa fa-envelope-open-text" aria-hidden="true"></span>
             <div class="input-div">
               <input class="input" name="text1" id="text1" type="email" value="" placeholder="Email" required="">
             </div>
           </div>
           <div class="form">
-            <span class="fa fa-user" aria-hidden="true"></span>
+            <span class="fa fa-lock" aria-hidden="true"></span>
             <div class="input-div">
               <input class="input" name="text1" id="text1" type="password" value="" placeholder="Password" required="">
             </div>
           </div>
           <div class="form">
-            <span class="fa fa-user" aria-hidden="true"></span>
+            <span class="fa fa-lock" aria-hidden="true"></span>
             <div class="input-div">
               <input class="input" name="text1" id="text1" type="password" value="" placeholder="Confirm Password"
                 required="">
@@ -176,6 +176,16 @@
     }
 
   }
+</style>
+
+<style>
+.terms label{
+	line-height: 26px;
+}
+
+.terms input:focus{
+	display: none;
+}
 </style>
 
 

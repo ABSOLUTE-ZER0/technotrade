@@ -84,9 +84,10 @@
 
     @media (max-width: 768px){
   label::after{
-        width: 20px;
-    height: 20px;
-    line-height: 23px;
+        width: 22px;
+    height: 22px;
+    line-height: 24px;
+    vertical-align: middle;
   }
     }
 </style>
