@@ -24,7 +24,7 @@
       </b-row>
 
       <b-row style="margin: 2em 0">
-        
+
         <b-col class="col1" lg="6">
           <LiveCount />
         </b-col>
@@ -76,7 +76,7 @@
 
       </b-row>
 
-                <Title title="Technotrade videos" />
+      <Title title="Technotrade videos" />
 
       <b-row class="video-row">
         <b-col class="col1" lg="6">
@@ -96,7 +96,7 @@
       </b-row>
       <b-row>
 
-                        <Title title="Technotrade products" />
+        <Title title="Technotrade products" />
         <Products />
       </b-row>
     </b-container>
@@ -109,12 +109,8 @@
 <style scoped>
   .main-container {
     padding: 0 10%;
-      background-color: rgb(240, 240, 240);
-
+    background-color: rgb(240, 240, 240);
   }
-
-
-
 
   .carousel-div.comp {
     padding: 0;
@@ -173,15 +169,15 @@
       margin: 0 -15px;
     }
 
-    .test{
+    .test {
       margin: 1em -15px;
     }
 
-  .video-title{
-    font-size: 1.1em;
-    text-align: left;
-    margin-top: 1.1em;
-  }
+    .video-title {
+      font-size: 1.1em;
+      text-align: left;
+      margin-top: 1.1em;
+    }
 
 
   }
@@ -200,8 +196,6 @@
     border-radius: 0.5em;
 
   }
-
-
 </style>
 
 <script>

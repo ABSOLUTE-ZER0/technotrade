@@ -139,6 +139,8 @@
 
   @media (max-width: 768px) {
     .main {
+          background-image: url("../assets/white1.jpg");
+
       font-size: 0.8em;
       background-size: cover;
       height: fit-content;

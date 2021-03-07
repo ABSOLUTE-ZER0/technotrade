@@ -1,33 +1,33 @@
 <template>
-<div>
-  <div class="type">
-    <input checked @click="accountType='buyer'" type="radio" name="user" id="cb1" value="buyer" />
-    <label class="lab1" for="cb1"><img src="../assets/buyer.jpg" /></label>
-    <input @click="accountType='seller'" type="radio" name="user" id="cb2" value="seller" />
-    <label for="cb2"><img src="../assets/seller.jpg" /></label>
-  </div>
   <div>
-    <p class="sub">Hello <strong>{{accountType}}  </strong> </p>
-    <p class="sub">Fill out the form to get started</p>
+    <div class="type">
+      <input checked @click="accountType='buyer'" type="radio" name="user" id="cb1" value="buyer" />
+      <label class="lab1"  for="cb1"><img class="buyer-img" src="../assets/buyer.jpg" /></label>
+      <input @click="accountType='seller'" type="radio" name="user" id="cb2" value="seller" />
+      <label for="cb2"><img class="seller-img" src="../assets/seller.jpg" /></label>
+    </div>
+    <div>
+      <p class="sub">Hello <strong>{{accountType}} </strong> </p>
+      <p class="sub">Fill out the form to get started</p>
+    </div>
   </div>
-</div>
 
 
 </template>
 
 <style scoped>
-
-  .type{
+  .type {
     display: flex;
     width: 100%;
     align-items: center;
     margin-bottom: 2em;
   }
+
   input {
     display: none;
   }
 
-  .lab1{
+  .lab1 {
     margin-left: 20%;
   }
 
@@ -76,28 +76,40 @@
     transform: scale(0.95);
   }
 
-  .sub{
+  .sub {
     color: grey;
     font-family: cursive;
     font-size: 1.1em;
   }
 
-    @media (max-width: 768px){
-  label::after{
-        width: 22px;
-    height: 22px;
-    line-height: 24px;
-    vertical-align: middle;
-  }
+  @media (max-width: 768px) {
+    .seller-img{
+      content: url("../assets/seller.jpg");
     }
+        .buyer-img{
+      content: url("../assets/buyer.jpg");
+    }
+    label::after {
+      width: 22px;
+      height: 22px;
+      line-height: 24px;
+      vertical-align: middle;
+      transition-duration: 0.1s;
+
+    }
+
+    label img {
+      transition-duration: 0.1s;
+    }
+  }
 </style>
 
 <script>
-export default {
-  data(){
-    return{
-      accountType: "buyer"
+  export default {
+    data() {
+      return {
+        accountType: "buyer"
+      }
     }
   }
-}
 </script>
