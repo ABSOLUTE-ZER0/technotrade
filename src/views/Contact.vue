@@ -38,7 +38,7 @@
           <div>
             <div>
               <div class="title1"> <i class="fa fa-envelope" aria-hidden="true"></i> Connect with Us</div>
-              <p>For Support, information or Queries email us at <br><a>info@technotrade.org</a></p>
+              <p>For Support, information or Queries email us at <br><a>info@techotrade.org</a></p>
             </div>
             <div>
               <div class="title1"><i class="fa fa-phone-square" aria-hidden="true"></i> Please call Us at
@@ -47,7 +47,7 @@
             </div>
             <div>
               <div>GLOBAL HEADQUARTER</div>
-              <div class="title2">TECHNOTRADE</div>
+              <div class="title2">TECHOTRADE</div>
               <p>Wertdfyujgkmhgnfvdcx</p>
             </div>
             <div>

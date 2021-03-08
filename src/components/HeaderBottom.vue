@@ -3,7 +3,7 @@
     <b-navbar class="d-none d-lg-flex" toggleable="lg">
       <b-navbar-brand class="nav-item" href="#">
         <img src="@/assets/msg.png" class="d-inline-block brand-img align-top" alt="Kitten">
-        TechnoTrade.org
+        TechoTrade.org
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto">
         <b-nav-item class="nav-item" href="/about">About Us
@@ -26,13 +26,13 @@
     <b-navbar class="d-lg-none nav-bar" toggleable="lg">
       <b-navbar-brand class="nav-item nav-brand" href="#">
         <img src="@/assets/msg.png" class="d-inline-block brand-img align-top" alt="Kitten">
-        TechnoTrade.org
+        TechoTrade.org
       </b-navbar-brand>
       <b-navbar-toggle class="toggle-btn" target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse style="text-align: center;width:100%" id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item class="nav-item" href="#"> Sell on Technotrade</b-nav-item>
+          <b-nav-item class="nav-item" href="#"> Sell on Techotrade</b-nav-item>
           <b-nav-item class="nav-item" href="#"> Careers</b-nav-item>
           <b-nav-item class="nav-item" href="#">About Us
           </b-nav-item>
@@ -45,7 +45,7 @@
           <b-nav-item class="nav-item" href="#"> Branded Solution</b-nav-item>
           <b-nav-item class="nav-item" href="#"> Media</b-nav-item>
           <b-button class="signin-btn">GET A QUOTE</b-button>
-          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@technotrade.org
+          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@techotrade.org
           </b-nav-item>
           <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/call.png"> +91 99999 99999
           </b-nav-item>
