@@ -12,9 +12,6 @@
             <h4 class="title">About Product</h4>
             <span class="title-decoration"></span>
           </div>
-
-
-
           <p class="desc">Vivamus dignissim, quam id condimentum mollis, risus ligula ultrices diam, nec laoreet felis
             quam a sapien.
             Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras velit mauris, consectetur id commodo id,
@@ -44,8 +41,6 @@
             <h4 class="title">Internation Product Market</h4>
             <span class="title-decoration"></span>
           </div>
-
-
           <p class="desc">Duis feugiat, turpis eget aliquet aliquam, nulla nibh hendrerit nisl, in malesuada mi dolor
             sed lectus.
             Maecenas ac vulputate magna. Nulla facilisi. Nulla ornare neque sem, vel commodo purus commodo eget.
@@ -64,9 +59,6 @@
             <h4 class="title">Type of Product</h4>
             <span class="title-decoration"></span>
           </div>
-
-
-
           <p class="desc">Suspendisse potenti. Nulla malesuada pellentesque odio, aliquam auctor nulla aliquet sit amet.
             Nulla et
             elit
@@ -89,8 +81,6 @@
             <h4 class="title">PROCURE PRODUCT ON TECHNOTRADE FOR ABSOLUTELY FREE OF ANY ADDITIONAL CHARGES!</h4>
             <span class="title-decoration"></span>
           </div>
-
-
           <p class="desc">Nulla facilisi. Vestibulum viverra est molestie ullamcorper fringilla. In aliquet arcu vel
             euismod
             scelerisque. In tempus elit eu urna pulvinar ornare. Vivamus vestibulum justo id mi volutpat suscipit.
@@ -123,7 +113,6 @@
             <h4 class="title">WHY YOU SHOULD BUY RICE THROUGH TECHNOTRADE.COM?</h4>
             <span class="title-decoration"></span>
           </div>
-
           <p class="desc">Maecenas faucibus magna ac dignissim rutrum. Quisque ultricies massa sagittis neque eleifend
             aliquet. Nam
             hendrerit tellus nibh, id facilisis dui venenatis ut. Sed consequat enim non magna vestibulum, at fermentum

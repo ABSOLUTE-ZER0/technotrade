@@ -3,7 +3,7 @@
     <div class="header">
       <b-navbar>
         <b-navbar-nav class="d-none d-lg-flex">
-          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@technotrade.com
+          <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/msg.png"> info@technotrade.org
           </b-nav-item>
           <b-nav-item class="nav-item" href="#"><img class="navtop-img" src="@/assets/call.png"> +91 99999 99999
           </b-nav-item>
