@@ -101,6 +101,9 @@
     label img {
       transition-duration: 0.1s;
     }
+    .sub{
+      font-size: 1.1em;
+    }
   }
 </style>
 

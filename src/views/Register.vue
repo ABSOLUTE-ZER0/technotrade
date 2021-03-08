@@ -24,31 +24,31 @@
           <div class="form">
             <span class="fa fa-user" aria-hidden="true"></span>
             <div class="input-div">
-              <input class="input" name="text1" id="text1" type="text" value="" placeholder="Name" required="">
+              <input class="input" type="text" placeholder="Name" required="">
             </div>
           </div>
           <div class="form">
             <span class="fa fa-mobile" aria-hidden="true"></span>
             <div class="input-div">
-              <input class="input" name="text1" id="text1" type="text" value="" placeholder="Mobile No" required="">
+              <input class="input" type="text" placeholder="Mobile No" required="">
             </div>
           </div>
           <div class="form">
             <span class="fa fa-envelope-open-text" aria-hidden="true"></span>
             <div class="input-div">
-              <input class="input" name="text1" id="text1" type="email" value="" placeholder="Email" required="">
+              <input class="input" type="email" placeholder="Email" required="">
             </div>
           </div>
           <div class="form">
             <span class="fa fa-lock" aria-hidden="true"></span>
             <div class="input-div">
-              <input class="input" name="text1" id="text1" type="password" value="" placeholder="Password" required="">
+              <input class="input" type="password" placeholder="Password" required="">
             </div>
           </div>
           <div class="form">
             <span class="fa fa-lock" aria-hidden="true"></span>
             <div class="input-div">
-              <input class="input" name="text1" id="text1" type="password" value="" placeholder="Confirm Password"
+              <input class="input" type="password" placeholder="Confirm Password"
                 required="">
             </div>
           </div>
