@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="type">
-      <input checked @click="accountType='buyer'" type="radio" name="user" id="cb1" value="buyer" />
+      <input checked @click="setType('buyer')" type="radio" name="user" id="cb1" value="buyer" />
       <label class="lab1"  for="cb1"><img class="buyer-img" src="../assets/buyer.jpg" /></label>
-      <input @click="accountType='seller'" type="radio" name="user" id="cb2" value="seller" />
+      <input @click="setType('seller')" type="radio" name="user" id="cb2" value="seller" />
       <label for="cb2"><img class="seller-img" src="../assets/seller.jpg" /></label>
     </div>
     <div>
@@ -11,8 +11,6 @@
       <p class="sub">Fill out the form to get started</p>
     </div>
   </div>
-
-
 </template>
 
 <style scoped>
@@ -112,6 +110,12 @@
     data() {
       return {
         accountType: "buyer"
+      }
+    },
+    methods:{
+      setType(item){
+        this.accountType=item
+        this.$emit("setType",item)
       }
     }
   }
