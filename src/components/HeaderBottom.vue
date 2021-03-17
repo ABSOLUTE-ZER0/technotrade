@@ -75,7 +75,7 @@
     font-size: 0.9em;
     margin: 0.5em 0;
     padding: 0 10%;
-
+    margin-bottom: 0;
   }
 
   .signin-btn {

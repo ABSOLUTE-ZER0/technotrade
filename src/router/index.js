@@ -5,6 +5,7 @@ import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 import Product from '../views/Product.vue'
 import Contact from '../views/Contact.vue'
+import SellerPanel from '../views/SellerPanel.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/seller',
+    name: 'SellerPanel',
+    component: SellerPanel
   }
 ]
 

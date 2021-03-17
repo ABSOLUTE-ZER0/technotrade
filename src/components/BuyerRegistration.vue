@@ -71,7 +71,7 @@
             I accept the terms and conditions
           </b-form-checkbox>
           <div style="width:100%;text-align: left;">
-            <button type="submit" class="btn">Get Started</button>
+            <b-button type="submit" class="btn">Get Started</b-button>
           </div>
         </form>
 </template>
@@ -119,14 +119,18 @@
 
   .btn {
     background-color: rgb(146, 87, 255);
+    border: 0;
     width: 70%;
     color: white;
     border-radius: 2em;
     font-size: 1.2em;
     letter-spacing: 2px;
     margin-left: 0;
-        margin-bottom: 10em;
+    margin-bottom: 50px;
+  }
 
+  .btn:focus,.btn:hover,.btn:active{
+    background-color: rgb(79, 46, 139) !important;
   }
 
     @media (max-width: 768px) {
